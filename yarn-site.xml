@@ -35,13 +35,23 @@
 </property>
 
 <property>
-<name>yarn.nodemanager.vmem-check-enabled</name>
-<value>false</value>
+    <name>yarn.nodemanager.vmem-check-enabled</name>
+    <value>false</value>
 </property>
 
 <property>
-<name>yarn.scheduler.minimum-allocation-mb</name>
-<value>512</value>
+    <name>yarn.scheduler.minimum-allocation-mb</name>
+    <value>256</value>
+</property>
+
+<property>
+    <name>yarn.nodemanager.resource.memory-mb</name>
+    <value>10240</value>
+</property>
+
+<property>
+    <name>yarn.scheduler.maximum-allocation-mb</name>
+    <value>10240</value>
 </property>
 
 </configuration>
